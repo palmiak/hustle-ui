@@ -6740,11 +6740,10 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     if (content.hasClass('hustle-info')) {
       footer = slidein.find('.hustle-nsa-link');
     } // Check if footer exists.
+    //if ( ! footer.length ) {
+    //	return;
+    //}
 
-
-    if (!footer.length) {
-      return;
-    }
 
     function headerHeight() {
       return header.outerHeight(true);
